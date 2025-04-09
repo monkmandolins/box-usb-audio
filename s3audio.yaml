@@ -1,3 +1,6 @@
+THIS IS SOMEONE ELSES CODE I AM LEARNING AND USING THIS AS A BACKBONE>  Thanks BigBobbas!!
+
+
 ## You can change the friendly name if you wish on line 7 below. The friendly name is how the device will show in HA
 ## However the <name:> is how HA connects to the device eg. esp32-s3-box-3.local is the mDNS hostname for the device.
 ## Once added to HA changing the device name can lead to connection issues, between HA and the device.
@@ -7,7 +10,7 @@ substitutions:
   friendly_name: ESP32-S3-Box-3
 
   external_media_player: your_media_player  ##change this to your external media player enity_id: do not include media_player.
-  home_assistant_host: http://homeassistant.local:8123 ##change to the full url or IP of your HA server including port
+  home_assistant_host: http://192.168.50.18:8123 ##change to the full url or IP of your HA server including port
   tts_voice_speed: "24000" #options #nabu casa "24000" #piper "16000" elevenlabs "44100" must include quotes
 
 #################### ON DEVICE WAKE WORDS #######################################
